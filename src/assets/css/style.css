@@ -1,0 +1,90 @@
+/* RESET DE ESTILO */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  appearance: none;
+  border: none;
+}
+
+input {
+  outline: none;
+}
+
+/* CORES E AFINS - VARIÁVEIS GLOBAIS */
+:root {
+  font-size: 62.5%;
+  --accent-color: hsl(282, 68%, 38%);
+  --body-bg: hsl(0, 0%, 7%);
+  --button-bg: hsl(336, 78%, 43%);
+  --diary-bg: hsl(290, 60%, 2%);
+  --error: hsl(0, 49%, 47%);
+  --focus: hsla(300, 100%, 51%, 0.767);
+  --form-bg-g1: hsla(0, 63%, 51%, 0.671);
+  --form-bg-g2: hsla(282, 86%, 49%, 0.659);
+  --important-link: hsl(337, 100%, 79%);
+  --input-bg: hsl(0, 0%, 98%);
+  --links: hsl(337, 75%, 69%);
+  --scroll-thumb-bg: hsl(337, 100%, 69%);
+  --scroll-track-bg: hsla(282, 86%, 19%, 0.659);
+  --text: hsl(0, 0%, 98%);
+  --whisper-bg: hsla(280, 11%, 27%, 0.986);
+  --textarea-focus: hsl(290, 60%, 5%);
+}
+
+/* ESTILOS GLOBAIS */
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--body-bg);
+  filter: saturate(125%);
+}
+
+::selection {
+  color: var(--accent-color);
+  background: var(--text);
+}
+
+h1 {
+  color: var(--text);
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+a {
+  color: var(--links);
+}
+
+/* TIPOGRAFIA */
+h1,
+h2,
+p,
+label,
+button,
+span,
+li,
+strong {
+  color: var(--text);
+  font-family: "Montserrat", sans-serif;
+}
+
+input,
+textarea {
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+}

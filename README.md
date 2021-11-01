@@ -11,6 +11,22 @@ Esta aplicação é uma rede social / diário com o objetivo de ser um refúgio 
 
 Escreva seus pensamentos em nosso diário e desabafe anonimamente com nossos sussurros. Você pode ler os sussurros de outras pessoas também.
 
+## Screenshots
+
+<img src="https://raw.githubusercontent.com/devlulcas/diary-front/main/screenshots/homepage.png" alt="homepage">
+
+<img src="https://raw.githubusercontent.com/devlulcas/diary-front/main/screenshots/register.png" alt="register">
+
+<img src="https://raw.githubusercontent.com/devlulcas/diary-front/main/screenshots/register-effects.png" alt="effects">
+
+<img src="https://raw.githubusercontent.com/devlulcas/diary-front/main/screenshots/login.png" alt="login">
+
+<img src="https://raw.githubusercontent.com/devlulcas/diary-front/main/screenshots/diary.png" alt="diary">
+
+<img src="https://raw.githubusercontent.com/devlulcas/diary-front/main/screenshots/whispers.png" alt="whispers">
+
+<img src="https://raw.githubusercontent.com/devlulcas/diary-front/main/screenshots/blocked.png" alt="blocked">
+
 ## Executando localmente
 
 No momento esta aplicação usa svelte puro, mas pretendo converte-lá futuramente para svelte kit. 
